@@ -1,0 +1,16 @@
+/* Sélecteur d'attribut */
+
+a[target="_blank"] {
+    text-decoration: underline;
+    text-decoration-style: double;
+    border: 1px solid #ccc;
+}
+
+p[lang^="fr"] {
+    color: blue;
+}
+
+
+input[required] {
+    border-left: 3px solid red;
+}
